@@ -7,34 +7,53 @@
     <meta name="description" content="Это первое резюме Ашимова Мухммедамира написанное на языке разметок HTML">
     <meta name="keywords" content="Резюме обыкновенное">
     <title>Резюме</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+hr {
+    border: none; 
+    border-bottom: 1px solid rgb(136, 34, 26);
+    border-width: 4px ; 
+}
+        
+       
+    </style>
 </head>
-<body>
-<img src="x6mkwyW-oDI (1).jpg" width="150" >
-<h1>Ашимов Мухаммедамир</h1>   <p>  Меня зовут Мухаммедамир мне 22 года решил заняться <strong>программированием</strong> по причине того,<br> <em>что мое основное хобби не</em> приносило прибыль, не смотря <strong> на мои долгие и четные старания</strong>. </p>
+<div class="container">
+<body class="bodycss">
 
+<div class="info"> 
+<img class="avatar" src="x6mkwyW-oDI (1).jpg" width="150" >
+<div class="info-text">
+<h1>Ашимов Мухаммедамир</h1>
+
+<p>   Меня зовут Мухаммедамир мне 22 года решил заняться программированием по причине того, что мое основное хобби не приносило прибыль, не смотря  на мои долгие и четные старания.</p>
 <h3>Ссылки на ресурсы  с помощью которых можно со мной связаться :</h3>
 <a href="https://vk.com/baxxxyeeee" target=_blank > Моя страничка ВКонтакте </a>
 |
 <a href="https://www.instagram.com/cvrnvg333/"  target=_blank > Мой инстаграм</a>
+</div>
+</div>
 
-<hr>
-
+<div class="lolipop bg-image-0">
 <h2>Мои хобби:</h2>
-<ol>
+<ol class="list">
     <li>Программирование</li>
     <li>Озвучка</li>
     <li>Просмотр фильмов</li>
     <li>Изучения английского языка</li>
     <li>Сон</li>
 </ol>
-<hr>
-<H2>Опыт работы</H2>
-<table  border="2" width="500">
-<tr>
+</div>
+
+
+<div class="lolipop bg-image-1">
+<h2>Опыт работы</h2>
+<table class="tablework"  width="500" >
+<!-- <tr>
     <td>Название</td>
     <td>Должность</td>
     <td>Год</td>
-</tr>
+</tr> -->
 <tr>
     <td>"ТОО" Ремонт Компьютерной Техники</td>
     <td>Помощник технического специалиста</td>
@@ -51,32 +70,51 @@
     <td>2022</td>
 </tr>
 </table>
+</div>
 
-<hr>
+<div class="lolipop bg-image-3">
+<h2>Моя озвучка:</h2>
+<ul class="listhobby">
+<li>
+<a href="https://www.youtube.com/channel/UC-RzclNMfAgrAYDKirxH5aQ" target="_blank">Мой YouTube канал с моей озвучкой</a>
+</li>
+<li>
+<a href="https://vk.com/anifasttv" target="_blank">Моя группа вк с озвучкой моего прочего контента</a>
+</li>
+</li>
+</ul>
+</div>
 
-<h1>Связаться со мной:</h1>
-<form action="/" >
-<div>
+
+<form action="/" class="form" >
+    <h1 >Связаться со мной:</h1>
+    <div class="formraw">
+<div class="formstyle">
  <label for="name1">Ваше имя</label>
  <input type="name" id="name1"
  placeholder="Введите ваше имя">   
 </div>
 
-<div>
+<div class="formstyle">
+<div class="divka">
 <label for="email1">Ваша почта</label>
 <input type="email" id="email1"
 placeholder="Введите вашу почту">
+</div>
+</div>
+</div>
 
-<div>
+<div class="formstyle">
 <label for="message">Ваше сообщение:</label>
 <br>
 <textarea name="message" cols="15" rows="5" placeholder="Введите сообщение"></textarea>
 </div>
 
-<input type="submit" value="Отправить сообщение">
+
+<input class="btn" type="submit"  value="Отправить сообщение">
 
 
-
+</div>
 </form>
 
 

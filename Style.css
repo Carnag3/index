@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+*{
+
+color: rgb(226, 229, 231);
+}
+.bodycss{
+    background-image: url(EVjhDXCWkAAkjy2.jpg);
+    background-blend-mode: multiply;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(136, 133, 133);
+    font-size: medium;
+    font-weight: normal;
+
+}
+@media (max-width:850px) {
+    .bodycss{
+        background-size: cover;
+        
+    }
+}
+.container{
+    max-width: 2000px   ;
+    margin:auto;
+    padding: 15px;
+}
+.avatar{
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 8px 8px 21px rgba(0, 0, 0, .25);
+}
+
+.info-text{
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.info{
+    display:flex;
+    
+}
+.info-text>h1{ 
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-weight: lighter;
+    font-size:35px;
+    color:#e4728c;
+    text-shadow: 1px 1px 1px rgb(10, 10, 10);
+    
+}
+
+.info-text p{
+    font-family: 'Croissant One', cursive;
+    font-weight: lighter;
+    font-size:18px;
+    color:rgb(255, 156, 63);
+    text-shadow: 1px 1px 1px rgb(10, 10, 10);
+}
+.info-text h3{
+    font-family: 'DM Serif Text', serif;
+    font-weight: lighter;
+    font-size:18px;
+    color:rgb(215, 255, 192);
+    text-shadow: 1px 1px 1px rgb(10, 10, 10);
+    margin-bottom: 10px;
+}
+
+.tablework{
+    width: 100%;
+}
+
+.tablework td{
+    padding-bottom: 8px;
+}
+
+.tablework tr td:nth-child(2) {
+    color: rgb(188, 214, 55);
+}
+
+.tablework tr td:nth-child(3) {
+    color: rgb(188, 214, 55);
+}
+
+.list{
+    padding: 0 15px;
+}
+
+.list li{
+    color: thistle;
+    margin-bottom: 8px;
+
+}
+
+.listhobby{
+    list-style: none;
+    padding: 0;
+}
+
+.listhobby li{
+    padding: 7px;
+    border-bottom: 3px solid yellow;
+    padding-bottom: 8px;
+    
+}
+
+.listhobby ul li a{
+    text-decoration: underline;
+}
+.listhobby ul li a:active{
+ color: red;
+}
+@media (max-width:850px) {
+    .formraw{
+        display: block;
+        
+    }
+}
+.formraw .formstyle input{
+    
+    margin-right: 50px;
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.lolipop{
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-weight: lighter;
+    color:#d8d0e4;
+    border-radius: 20px;
+    padding: 5px;
+    border: 1px solid #2f3d42;
+    text-shadow: 1px 1px 1px rgb(10, 10, 10);
+    display: block;
+    padding: 15px 20px;
+    margin-bottom:20px ;
+}
+.lolipop h2{
+    color: pink;
+    margin-bottom: 10px;
+}
+
+.lolipop li{
+  color: pink; 
+ text-shadow: 1px 1px 1px rgb(10, 10, 10);
+}
+
+.lolipop td{
+    color: pink;
+    text-shadow: 1px 1px 1px rgb(10, 10, 10);
+   }
+
+.lolipop h3{
+    color: pink;
+    text-shadow: 1px 1px 1px rgb(10, 10, 10);
+}
+
+ a{
+    color: rgb(77, 199, 230);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+
+.lolipop p{
+    color: pink;
+    
+}
+
+.bg-image-0{
+    background-image:url(цветы.PNG);
+    background-position: 50% 50%;
+    background-blend-mode: multiply;
+    background-color: rgb(155, 152, 152);
+}
+.bg-image-1{
+    background-image: url(shari.PNG) ;
+    background-position: 50% 50%;
+    background-blend-mode: multiply;
+    background-color: rgb(161, 158, 158);
+    
+      
+}
+
+@media (max-width:850px) {
+    .info{
+        display: block;
+        text-align: center;
+    }
+}
+
+.bg-image-3{
+    background-image: url(ships.PNG);
+    
+    background-blend-mode: multiply;
+    background-color: rgb(128, 126, 126);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lolipop a{
+    margin: 2px;
+}
+
+.info{
+    margin-bottom: 20px;
+}
+
+.btn {
+    background:rgba(208, 36, 231, 0.308) ;
+    padding: 17px 22px;
+    color: aliceblue;
+    border: none;
+    border-radius: 18px;
+    font-family: inherit;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.btn:hover{
+    opacity:0,8;
+}
+
+.form h1{
+    font-size: 150%;
+    color: pink;
+    text-align: center;
+}
+.form label{
+    color: pink;
+}
+.formraw{
+margin-bottom: 10px;
+display: flex;
+}
+
+.formraw .formstyle{
+    display: inline-block;
+    margin-top: 20px;
+    width: fit-content;
+    margin-bottom: 20px;
+    
+}
+.formraw .formstyle:last-child{
+    margin-right: 0;
+}
+.formstyle label{
+    display: block;
+}
+.formstyle input,
+.formstyle textarea{
+    width:25%;
+    box-sizing: border-box;
+    border:none;
+    background: transparent;
+    border-bottom: 5px solid  rgb(202, 115, 129);
+    color: pink;
+    padding: 15px 0 10px;
+    font-family: inherit;
+    outline: none;
+    resize: none;
+    
+}
+.formstyle{
+    font-size: 23px;
+    font-weight: 800;
+     
+}
+
+ input::placeholder {
+    color:rgb(41, 192, 172);
+    font-size: 15px;
+    font-weight: 500;
+ }
+
+ 
+
+ textarea::placeholder {
+    color:rgb(41, 192, 172);
+       font-size: 15px;
+    font-weight: 500;
+ }
